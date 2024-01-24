@@ -1,0 +1,18 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/jwt_security
+        username: admin
+        password: admin
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
+        show-sql: true
+        properties:
+            hibernate:
+                format_sql: true
+        database: postgresql
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+    data:
+        mongodb:
+            uri: "mongodb+srv://shriyanshuraj55:Jqk7j7b9ltGM1j0k@cluster0.k1uosyx.mongodb.net/database?retryWrites=true&w=majority"
