@@ -15,4 +15,4 @@ spring:
         database-platform: org.hibernate.dialect.PostgreSQLDialect
     data:
         mongodb:
-            uri: "mongodb+srv://shriyanshuraj55:Jqk7j7b9ltGM1j0k@cluster0.k1uosyx.mongodb.net/database?retryWrites=true&w=majority"
+            uri: ""
